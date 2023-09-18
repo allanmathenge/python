@@ -123,8 +123,16 @@ print(abs(gpa * -1))
 print(round(gpa))
 print(round(gpa, 1))
 
-print("")
 print(math.pi)
 print(math.sqrt(64))
 print(math.ceil(gpa))
 print(math.floor(gpa))
+
+# Casting a string to an integer
+print("")
+zipcode = "10001"
+zip_value = int(zipcode)
+print(type(zip_value))
+
+# Throws error if you attempt to cast incorrect data
+# zip_value = int("Allan")
