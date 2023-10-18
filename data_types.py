@@ -136,3 +136,8 @@ print(type(zip_value))
 
 # Throws error if you attempt to cast incorrect data
 # zip_value = int("Allan")
+
+x = 3
+y = 8
+y *= x
+print(y)

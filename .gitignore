@@ -2,3 +2,7 @@
 .venv
 
 .env
+names.txt
+name_list.txt
+more_names.txt
+context.txt
