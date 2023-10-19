@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2rem;
+    background: url(background/weather.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+h1 .city_title {
+    color: #000;
+}
+
+p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+    color: rgb(255, 0, 221);
+}
+
+span {
+    color: gold;
+}
+
+input,
+button {
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+footer {
+    color: rgb(245, 245, 245);
+    min-height: 100vh;
+}
